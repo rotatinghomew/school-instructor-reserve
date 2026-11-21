@@ -1,0 +1,6 @@
+event,day,site,target,recorded_at,kind,value
+R1,2026-10-05,东桥,B1,2026-10-05T08:20,school_confirmed,yes
+R2,2026-10-05,东桥,B1,2026-10-05T08:27,rollcall,shortage
+R3,2026-10-05,沙溪,B2,2026-10-05T08:31,rollcall,shortage
+R4,2026-10-05,棠径,B1,2026-10-05T09:25,rollcall,full
+R5,2026-10-05,棠径,B1,2026-10-05T09:27,release_receipt,yes

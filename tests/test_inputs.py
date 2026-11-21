@@ -24,3 +24,12 @@ class SourceRecords(unittest.TestCase):
         acceptance = next(row for row in received.values() if row['action']=='school_accepts')
         self.assertGreater(acceptance['received'],shortened['received'])
         self.assertIn(acceptance['reference'], {row['class'] for row in tables['standing']})
+
+    def test_branch_receipts_preserve_when_decisions_were_possible(self):
+        tables = read_tables()
+        branches = {row['branch']:row for row in tables['mutual_aid']}
+        for receipt in tables['call_round']:
+            self.assertIn(receipt['target'],branches)
+        self.assertTrue(any(not row['reported_minute'] for row in tables['rollcalls']))
+        role_time = next(row['recorded_at'] for row in tables['call_round'] if row['kind']=='release_receipt')
+        self.assertGreater(role_time,'2026-10-05T09:20')

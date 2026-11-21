@@ -12,6 +12,9 @@
 - `outcomes.csv`：完课回执的最后状态及到达时间。
 - `standing.csv`：新一期各校希望保留或增开的班。
 - `reinforcements.csv`：本周增援窗口及学校分批确认的原始回执。
+- `rollcalls.csv`：每个地点晨检在某刻得到的原始回报，reported_minute 可晚于实际到岗；空白意味着始终未收。
+- `mutual_aid.csv`：可约定的条件调用；condition 形如 校点/信号，多个条件同时成立才触发。
+- `call_round.csv`：本周实际到达的证明和接受回执，与历史早读数分开。
 
 ## 本地检查
 

@@ -1,0 +1,5 @@
+branch,staff,from_site,to_site,school_class,condition,dispatch_at,leave_by,published_at,state
+B1,T4,棠径,东桥,F1,棠径/full+东桥/shortage,515,560,2026-10-02T16:00,saved
+B2,T4,棠径,沙溪,F3,棠径/full+东桥/full+沙溪/shortage,543,590,2026-10-02T16:00,saved
+B3,T5,东桥,沙溪,F3,东桥/full+沙溪/shortage,552,585,2026-10-02T16:00,offered
+B4,T7,棠径,沙溪,F2,沙溪/shortage,511,510,2026-10-02T16:00,offered

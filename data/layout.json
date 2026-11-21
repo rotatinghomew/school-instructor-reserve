@@ -68,5 +68,42 @@
       "reference",
       "received"
     ]
+  },
+  "rollcalls": {
+    "summary": "每个地点晨检在某刻得到的原始回报，reported_minute 可晚于实际到岗；空白意味着始终未收。",
+    "header": [
+      "day",
+      "site",
+      "signal",
+      "actual_minute",
+      "reported_minute"
+    ]
+  },
+  "mutual_aid": {
+    "summary": "可约定的条件调用；condition 形如 校点/信号，多个条件同时成立才触发。",
+    "header": [
+      "branch",
+      "staff",
+      "from_site",
+      "to_site",
+      "school_class",
+      "condition",
+      "dispatch_at",
+      "leave_by",
+      "published_at",
+      "state"
+    ]
+  },
+  "call_round": {
+    "summary": "本周实际到达的证明和接受回执，与历史早读数分开。",
+    "header": [
+      "event",
+      "day",
+      "site",
+      "target",
+      "recorded_at",
+      "kind",
+      "value"
+    ]
   }
 }
