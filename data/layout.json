@@ -1,0 +1,72 @@
+{
+  "staff": {
+    "summary": "跨校教练与资格，commute 为同出行扰动组。",
+    "header": [
+      "staff",
+      "role",
+      "credentials",
+      "commute"
+    ]
+  },
+  "timetable": {
+    "summary": "排班事实及首次可见时刻，同一班号记录可向后更新。",
+    "header": [
+      "class",
+      "week",
+      "seen",
+      "day",
+      "site",
+      "kind",
+      "start",
+      "end",
+      "forecast_opening",
+      "open"
+    ]
+  },
+  "shifts": {
+    "summary": "历史班次时间为通知时可排窗口，实际到岗状态和确认时间是结局；计划日期不晚于该周通知截面。",
+    "header": [
+      "staff",
+      "day",
+      "start",
+      "end",
+      "actual",
+      "received"
+    ]
+  },
+  "outcomes": {
+    "summary": "完课回执的最后状态及到达时间。",
+    "header": [
+      "class",
+      "received",
+      "state"
+    ]
+  },
+  "standing": {
+    "summary": "新一期各校希望保留或增开的班。",
+    "header": [
+      "class",
+      "site",
+      "day",
+      "kind",
+      "start",
+      "end",
+      "state",
+      "notified_staff"
+    ]
+  },
+  "reinforcements": {
+    "summary": "本周增援窗口及学校分批确认的原始回执。",
+    "header": [
+      "event",
+      "staff",
+      "day",
+      "start",
+      "end",
+      "sites",
+      "action",
+      "reference",
+      "received"
+    ]
+  }
+}

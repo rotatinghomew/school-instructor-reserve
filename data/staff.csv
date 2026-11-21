@@ -1,0 +1,8 @@
+staff,role,credentials,commute
+T1,lead,paired+ordinary,G1
+T2,lead,ordinary,G1
+T3,assistant,paired,G2
+T4,assistant,paired,G1
+T5,lead,paired+ordinary,G2
+T6,assistant,ordinary,G3
+T7,lead,ordinary,G3

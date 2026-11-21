@@ -1,0 +1,6 @@
+event,staff,day,start,end,sites,action,reference,received
+G1,T5,2026-10-05,530,710,东桥+沙溪,available,,2026-10-02T14:00
+G2,T4,2026-10-05,520,635,棠径+东桥+沙溪,available,,2026-10-02T14:00
+G3,T7,2026-10-05,540,700,棠径+沙溪,available,,2026-10-02T14:00
+G4,T4,2026-10-05,520,590,棠径+东桥,shortened,G2,2026-10-02T17:20
+G5,T5,2026-10-05,580,630,东桥,school_accepts,F1,2026-10-02T18:10

@@ -1,0 +1,5 @@
+class,site,day,kind,start,end,state,notified_staff
+F0,棠径,2026-10-05,paired,540,590,confirmed,T1+T3
+F1,东桥,2026-10-05,paired,580,630,notified,T5+T4
+F2,沙溪,2026-10-05,ordinary,540,590,proposed,
+F3,沙溪,2026-10-05,paired,620,670,proposed,

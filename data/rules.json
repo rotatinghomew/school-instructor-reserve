@@ -1,0 +1,23 @@
+{
+  "priority_types": [
+    "paired"
+  ],
+  "week_day_order": [
+    "一",
+    "二",
+    "三",
+    "四",
+    "五"
+  ],
+  "notice_cutoff": "周日前一个工作日 17:00",
+  "forecast_horizon_days": 5,
+  "coverage_interval_level": 0.9,
+  "max_joint_uncovered_priority_probability": 0.15,
+  "min_history_weeks_per_type_class": 6,
+  "travel_minutes": {
+    "棠径/东桥": 20,
+    "东桥/沙溪": 35,
+    "棠径/沙溪": 30
+  },
+  "interpretation": "paired 为一名主教及一名符合课型资格的副教共同在场；ordinary 只需主教。只有能因果止损的增援才可兑现。表内时间均为本地时间。"
+}
