@@ -1,0 +1,1087 @@
+{
+  "forecast": [
+    {
+      "day": "2026-09-28",
+      "weather": "clear",
+      "basis": "weather+layout",
+      "sample_days": 36,
+      "committable": [
+        {
+          "class": "21-0-1",
+          "site": "东桥",
+          "kind": "paired",
+          "window": "580-630",
+          "promised": true,
+          "failure_probability": 0.25675675675675674
+        },
+        {
+          "class": "21-0-0",
+          "site": "棠径",
+          "kind": "ordinary",
+          "window": "540-590",
+          "promised": true,
+          "failure_probability": 0.12162162162162163
+        },
+        {
+          "class": "21-0-2",
+          "site": "沙溪",
+          "kind": "paired",
+          "window": "540-590",
+          "promised": true,
+          "failure_probability": 0.06756756756756757
+        }
+      ],
+      "abstained": {},
+      "mean": 2.5263,
+      "median": 3,
+      "interval": [
+        2,
+        3
+      ],
+      "joint_priority_risk": 0.0135,
+      "independent_priority_risk": 0.0526,
+      "expected_lost_minutes": 22.2972972972973,
+      "baselines": {
+        "climatology": {
+          "mean": 2.3861,
+          "low": 1,
+          "high": 3,
+          "sample": 99
+        },
+        "independent_sites": {
+          "mean": 0.4459,
+          "low": 0,
+          "high": 1,
+          "joint_priority_risk": 0.0526
+        },
+        "fixed_promise": {
+          "mean": 3.0,
+          "low": 3,
+          "high": 3
+        }
+      },
+      "abstain_reason": null
+    },
+    {
+      "day": "2026-09-29",
+      "weather": "clear",
+      "basis": "weather+layout",
+      "sample_days": 39,
+      "committable": [
+        {
+          "class": "21-1-1",
+          "site": "东桥",
+          "kind": "paired",
+          "window": "580-630",
+          "promised": true,
+          "failure_probability": 0.0625
+        },
+        {
+          "class": "21-1-0",
+          "site": "棠径",
+          "kind": "paired",
+          "window": "540-590",
+          "promised": true,
+          "failure_probability": 0.2125
+        },
+        {
+          "class": "21-1-2",
+          "site": "沙溪",
+          "kind": "ordinary",
+          "window": "540-590",
+          "promised": true,
+          "failure_probability": 0.2125
+        }
+      ],
+      "abstained": {},
+      "mean": 2.4878,
+      "median": 3,
+      "interval": [
+        2,
+        3
+      ],
+      "joint_priority_risk": 0.0125,
+      "independent_priority_risk": 0.0661,
+      "expected_lost_minutes": 24.375,
+      "baselines": {
+        "climatology": {
+          "mean": 2.3861,
+          "low": 1,
+          "high": 3,
+          "sample": 99
+        },
+        "independent_sites": {
+          "mean": 0.4875,
+          "low": 0,
+          "high": 1,
+          "joint_priority_risk": 0.0661
+        },
+        "fixed_promise": {
+          "mean": 3.0,
+          "low": 3,
+          "high": 3
+        }
+      },
+      "abstain_reason": null
+    },
+    {
+      "day": "2026-09-30",
+      "weather": "clear",
+      "basis": "weather+layout",
+      "sample_days": 12,
+      "committable": [
+        {
+          "class": "21-2-1",
+          "site": "东桥",
+          "kind": "ordinary",
+          "window": "580-630",
+          "promised": true,
+          "failure_probability": 0.11538461538461539
+        },
+        {
+          "class": "21-2-0",
+          "site": "棠径",
+          "kind": "paired",
+          "window": "540-590",
+          "promised": true,
+          "failure_probability": 0.11538461538461539
+        },
+        {
+          "class": "21-2-2",
+          "site": "沙溪",
+          "kind": "paired",
+          "window": "540-590",
+          "promised": true,
+          "failure_probability": 0.038461538461538464
+        }
+      ],
+      "abstained": {},
+      "mean": 2.6429,
+      "median": 3,
+      "interval": [
+        2,
+        3
+      ],
+      "joint_priority_risk": 0.0385,
+      "independent_priority_risk": 0.0212,
+      "expected_lost_minutes": 13.461538461538462,
+      "baselines": {
+        "climatology": {
+          "mean": 2.3861,
+          "low": 1,
+          "high": 3,
+          "sample": 99
+        },
+        "independent_sites": {
+          "mean": 0.2692,
+          "low": 0,
+          "high": 1,
+          "joint_priority_risk": 0.0212
+        },
+        "fixed_promise": {
+          "mean": 3.0,
+          "low": 3,
+          "high": 3
+        }
+      },
+      "abstain_reason": null
+    },
+    {
+      "day": "2026-10-01",
+      "weather": "clear",
+      "basis": "weather+layout",
+      "sample_days": 36,
+      "committable": [
+        {
+          "class": "21-3-1",
+          "site": "东桥",
+          "kind": "paired",
+          "window": "580-630",
+          "promised": true,
+          "failure_probability": 0.25675675675675674
+        },
+        {
+          "class": "21-3-0",
+          "site": "棠径",
+          "kind": "ordinary",
+          "window": "540-590",
+          "promised": true,
+          "failure_probability": 0.12162162162162163
+        },
+        {
+          "class": "21-3-2",
+          "site": "沙溪",
+          "kind": "paired",
+          "window": "540-590",
+          "promised": true,
+          "failure_probability": 0.06756756756756757
+        }
+      ],
+      "abstained": {},
+      "mean": 2.5263,
+      "median": 3,
+      "interval": [
+        2,
+        3
+      ],
+      "joint_priority_risk": 0.0135,
+      "independent_priority_risk": 0.0526,
+      "expected_lost_minutes": 22.2972972972973,
+      "baselines": {
+        "climatology": {
+          "mean": 2.3861,
+          "low": 1,
+          "high": 3,
+          "sample": 99
+        },
+        "independent_sites": {
+          "mean": 0.4459,
+          "low": 0,
+          "high": 1,
+          "joint_priority_risk": 0.0526
+        },
+        "fixed_promise": {
+          "mean": 3.0,
+          "low": 3,
+          "high": 3
+        }
+      },
+      "abstain_reason": null
+    },
+    {
+      "day": "2026-10-02",
+      "weather": "clear",
+      "basis": "weather+layout",
+      "sample_days": 39,
+      "committable": [
+        {
+          "class": "21-4-1",
+          "site": "东桥",
+          "kind": "paired",
+          "window": "580-630",
+          "promised": true,
+          "failure_probability": 0.0625
+        },
+        {
+          "class": "21-4-0",
+          "site": "棠径",
+          "kind": "paired",
+          "window": "540-590",
+          "promised": true,
+          "failure_probability": 0.2125
+        },
+        {
+          "class": "21-4-2",
+          "site": "沙溪",
+          "kind": "ordinary",
+          "window": "540-590",
+          "promised": true,
+          "failure_probability": 0.2125
+        }
+      ],
+      "abstained": {},
+      "mean": 2.4878,
+      "median": 3,
+      "interval": [
+        2,
+        3
+      ],
+      "joint_priority_risk": 0.0125,
+      "independent_priority_risk": 0.0661,
+      "expected_lost_minutes": 24.375,
+      "baselines": {
+        "climatology": {
+          "mean": 2.3861,
+          "low": 1,
+          "high": 3,
+          "sample": 99
+        },
+        "independent_sites": {
+          "mean": 0.4875,
+          "low": 0,
+          "high": 1,
+          "joint_priority_risk": 0.0661
+        },
+        "fixed_promise": {
+          "mean": 3.0,
+          "low": 3,
+          "high": 3
+        }
+      },
+      "abstain_reason": null
+    }
+  ],
+  "standing_forecast": [
+    {
+      "day": "2026-10-05",
+      "weather": "clear",
+      "basis": "weather+layout",
+      "sample_days": 39,
+      "committable": [
+        {
+          "class": "F0",
+          "site": "棠径",
+          "kind": "paired",
+          "window": "540-590",
+          "promised": true,
+          "failure_probability": 0.2125
+        },
+        {
+          "class": "F1",
+          "site": "东桥",
+          "kind": "paired",
+          "window": "580-630",
+          "promised": true,
+          "failure_probability": 0.0625
+        },
+        {
+          "class": "F2",
+          "site": "沙溪",
+          "kind": "ordinary",
+          "window": "540-590",
+          "promised": false,
+          "failure_probability": 0.2125
+        }
+      ],
+      "abstained": {
+        "F3": "insufficient_cell_history"
+      },
+      "mean": 2.4878,
+      "median": 3,
+      "interval": [
+        2,
+        3
+      ],
+      "joint_priority_risk": 0.0125,
+      "independent_priority_risk": 0.0661,
+      "expected_lost_minutes": 13.75,
+      "baselines": {
+        "climatology": {
+          "mean": 2.3861,
+          "low": 1,
+          "high": 3,
+          "sample": 99
+        },
+        "independent_sites": {
+          "mean": 0.4875,
+          "low": 0,
+          "high": 1,
+          "joint_priority_risk": 0.0661
+        },
+        "fixed_promise": {
+          "mean": 3.0,
+          "low": 3,
+          "high": 3
+        }
+      },
+      "abstain_reason": null
+    }
+  ],
+  "backtest": {
+    "level": 0.9,
+    "joint_budget": 0.15,
+    "eligible_days": 75,
+    "excluded_closed_days": 2,
+    "excluded_unknown_days": 3,
+    "abstained_days": 0,
+    "coverage": 1.0,
+    "coverage_baselines": {
+      "climatology": 1.0,
+      "independent_sites": 0.10666666666666667,
+      "fixed_promise": 0.6
+    },
+    "mae": 0.5065913146805159,
+    "mae_baselines": {
+      "climatology": 0.6491639769160109,
+      "independent_sites": 2.018756267761762,
+      "fixed_promise": 0.5066666666666667
+    },
+    "mean_interval_width": 1.08,
+    "joint_priority_brier": 0.01831368258325817,
+    "joint_priority_brier_independent": 0.024605191598983035,
+    "clear": {
+      "days": 67,
+      "coverage": 1.0,
+      "mae": 0.5224620098752948,
+      "joint_priority_brier": 0.0008258956033328942,
+      "promised_minutes": 10000,
+      "lost_minutes": 1100
+    },
+    "wet": {
+      "days": 8,
+      "coverage": 1.0,
+      "mae": 0.37367424242424246,
+      "joint_priority_brier": 0.16477389854013227,
+      "promised_minutes": 1200,
+      "lost_minutes": 800
+    },
+    "high_demand": {
+      "days": 7,
+      "coverage": 1.0,
+      "mae": 0.2452380952380953,
+      "joint_priority_brier": 0.07744487011648422,
+      "promised_minutes": 1050,
+      "lost_minutes": 700
+    },
+    "within_budget": {
+      "days": 68,
+      "coverage": 1.0,
+      "mae": 0.5334953225642945,
+      "joint_priority_brier": 0.012226648572484893,
+      "promised_minutes": 10150,
+      "lost_minutes": 1200
+    },
+    "promised_minutes": 11200,
+    "lost_minutes": 1900,
+    "loss_share_on_high_demand_days": 0.3684210526315789,
+    "strata": {
+      "layout": 2,
+      "weather": 9,
+      "weather+layout": 64
+    },
+    "oracle_selection_check": {
+      "days_with_dispatch": 18,
+      "dispatches": 18,
+      "held_afterwards": 13,
+      "not_held_afterwards": 5,
+      "detail": {
+        "2026-05-04": {
+          "dispatched": 1,
+          "branches": [
+            "B1"
+          ],
+          "held": 1,
+          "not_held": 0
+        },
+        "2026-05-14": {
+          "dispatched": 1,
+          "branches": [
+            "B1"
+          ],
+          "held": 1,
+          "not_held": 0
+        },
+        "2026-05-19": {
+          "dispatched": 1,
+          "branches": [
+            "B1"
+          ],
+          "held": 0,
+          "not_held": 1
+        },
+        "2026-05-29": {
+          "dispatched": 1,
+          "branches": [
+            "B1"
+          ],
+          "held": 0,
+          "not_held": 1
+        },
+        "2026-06-04": {
+          "dispatched": 1,
+          "branches": [
+            "B1"
+          ],
+          "held": 0,
+          "not_held": 1
+        },
+        "2026-06-09": {
+          "dispatched": 1,
+          "branches": [
+            "B1"
+          ],
+          "held": 1,
+          "not_held": 0
+        },
+        "2026-06-19": {
+          "dispatched": 1,
+          "branches": [
+            "B1"
+          ],
+          "held": 1,
+          "not_held": 0
+        },
+        "2026-06-29": {
+          "dispatched": 1,
+          "branches": [
+            "B1"
+          ],
+          "held": 1,
+          "not_held": 0
+        },
+        "2026-07-09": {
+          "dispatched": 1,
+          "branches": [
+            "B1"
+          ],
+          "held": 0,
+          "not_held": 1
+        },
+        "2026-07-14": {
+          "dispatched": 1,
+          "branches": [
+            "B1"
+          ],
+          "held": 1,
+          "not_held": 0
+        },
+        "2026-07-24": {
+          "dispatched": 1,
+          "branches": [
+            "B1"
+          ],
+          "held": 1,
+          "not_held": 0
+        },
+        "2026-08-04": {
+          "dispatched": 1,
+          "branches": [
+            "B1"
+          ],
+          "held": 1,
+          "not_held": 0
+        },
+        "2026-08-14": {
+          "dispatched": 1,
+          "branches": [
+            "B1"
+          ],
+          "held": 1,
+          "not_held": 0
+        },
+        "2026-08-24": {
+          "dispatched": 1,
+          "branches": [
+            "B1"
+          ],
+          "held": 1,
+          "not_held": 0
+        },
+        "2026-09-04": {
+          "dispatched": 1,
+          "branches": [
+            "B1"
+          ],
+          "held": 0,
+          "not_held": 1
+        },
+        "2026-09-14": {
+          "dispatched": 1,
+          "branches": [
+            "B1"
+          ],
+          "held": 1,
+          "not_held": 0
+        },
+        "2026-09-24": {
+          "dispatched": 1,
+          "branches": [
+            "B1"
+          ],
+          "held": 1,
+          "not_held": 0
+        },
+        "2026-09-29": {
+          "dispatched": 1,
+          "branches": [
+            "B1"
+          ],
+          "held": 1,
+          "not_held": 0
+        }
+      }
+    },
+    "gap_attribution": {
+      "causes": {
+        "common_shortage": 24,
+        "contradicted": 12,
+        "late_report": 1,
+        "missing_signal": 3,
+        "no_contract": 16,
+        "no_feasible_window": 4
+      },
+      "reading": [
+        "共同缺师（同一分层多校同时缺师）只能靠保留联合概率与预留备班缓解。",
+        "回报太晚与未收到信号是可观测的出借方履约问题，不是概率问题。"
+      ]
+    }
+  },
+  "desk": {
+    "day": "2026-10-05",
+    "cutoff": 560,
+    "dispatched": [],
+    "not_dispatched": [],
+    "waiting": [
+      {
+        "branch": "B1",
+        "missing_signals": [
+          "棠径"
+        ],
+        "deadline": 560
+      }
+    ],
+    "blocked": [
+      {
+        "branch": "B2",
+        "blockers": [
+          "target_outside_availability",
+          "class_outside_availability",
+          "precommitted_elsewhere",
+          "contradicted:东桥",
+          "waiting:棠径"
+        ]
+      },
+      {
+        "branch": "B3",
+        "blockers": [
+          "precommitted_elsewhere",
+          "contradicted:东桥"
+        ]
+      },
+      {
+        "branch": "B4",
+        "blockers": [
+          "window_impossible",
+          "outside_availability",
+          "release_after_deadline",
+          "arrival_after_start"
+        ]
+      }
+    ],
+    "missing_signals": [
+      "棠径"
+    ],
+    "occupied_windows": {},
+    "reservations": [
+      {
+        "staff": "T5",
+        "class": "F1",
+        "source": "school_accepts",
+        "received": "2026-10-02T18:10:00",
+        "narrowed_end": null
+      },
+      {
+        "staff": "T4",
+        "class": "F1",
+        "source": "school_confirmed",
+        "received": "2026-10-05T08:20:00",
+        "narrowed_end": null
+      }
+    ],
+    "windows": {
+      "T5": [
+        {
+          "start": 530,
+          "end": 710,
+          "sites": [
+            "东桥",
+            "沙溪"
+          ],
+          "source": "available"
+        }
+      ],
+      "T7": [
+        {
+          "start": 540,
+          "end": 700,
+          "sites": [
+            "棠径",
+            "沙溪"
+          ],
+          "source": "available"
+        }
+      ],
+      "T4": [
+        {
+          "start": 520,
+          "end": 590,
+          "sites": [
+            "东桥",
+            "棠径"
+          ],
+          "source": "shortened"
+        }
+      ]
+    },
+    "release_reports": [
+      {
+        "event": "R1",
+        "target": "B1",
+        "site": "东桥",
+        "kind": "school_confirmed",
+        "value": "yes",
+        "recorded_at": "2026-10-05T08:20:00",
+        "minute": 500,
+        "branch": "B1",
+        "class": "F1"
+      },
+      {
+        "event": "R5",
+        "target": "B1",
+        "site": "棠径",
+        "kind": "release_receipt",
+        "value": "yes",
+        "recorded_at": "2026-10-05T09:27:00",
+        "minute": 567,
+        "branch": "B1",
+        "class": "F1"
+      }
+    ],
+    "exclusive_pairings": [
+      {
+        "staff": "T4",
+        "branches": [
+          "B1",
+          "B2"
+        ],
+        "shared_conditions": [
+          [
+            "棠径",
+            "full"
+          ]
+        ],
+        "distinguishing": [
+          [
+            "沙溪",
+            "shortage"
+          ],
+          [
+            "东桥",
+            "shortage"
+          ],
+          [
+            "东桥",
+            "full"
+          ]
+        ],
+        "observable_before_deadlines": true,
+        "deadlines": {
+          "B1": 560,
+          "B2": 590
+        },
+        "detail": "区分信号在最晚截止时刻前均已收到"
+      }
+    ]
+  },
+  "promises": [
+    {
+      "class": "F0",
+      "site": "棠径",
+      "kind": "paired",
+      "window": "540-590",
+      "state": "confirmed",
+      "promised": true,
+      "reservations": [],
+      "executable_branches": [],
+      "dispatched_branches": [],
+      "blocked_branches": {},
+      "later_outcome": null,
+      "honoured": null,
+      "unused_reason": "outcome_not_yet_received"
+    },
+    {
+      "class": "F1",
+      "site": "东桥",
+      "kind": "paired",
+      "window": "580-630",
+      "state": "notified",
+      "promised": true,
+      "reservations": [
+        {
+          "staff": "T5",
+          "source": "school_accepts",
+          "received": "2026-10-02T18:10:00"
+        },
+        {
+          "staff": "T4",
+          "source": "school_confirmed",
+          "received": "2026-10-05T08:20:00"
+        }
+      ],
+      "executable_branches": [],
+      "dispatched_branches": [],
+      "blocked_branches": {
+        "B1": [
+          "release_after_deadline",
+          "arrival_after_start"
+        ]
+      },
+      "later_outcome": null,
+      "honoured": null,
+      "unused_reason": "outcome_not_yet_received"
+    },
+    {
+      "class": "F2",
+      "site": "沙溪",
+      "kind": "ordinary",
+      "window": "540-590",
+      "state": "proposed",
+      "promised": false,
+      "reservations": [],
+      "executable_branches": [],
+      "dispatched_branches": [],
+      "blocked_branches": {
+        "B4": [
+          "window_impossible",
+          "outside_availability",
+          "release_after_deadline",
+          "arrival_after_start"
+        ]
+      },
+      "later_outcome": null,
+      "honoured": null,
+      "unused_reason": "not_promised"
+    },
+    {
+      "class": "F3",
+      "site": "沙溪",
+      "kind": "paired",
+      "window": "620-670",
+      "state": "proposed",
+      "promised": false,
+      "reservations": [],
+      "executable_branches": [],
+      "dispatched_branches": [],
+      "blocked_branches": {
+        "B2": [
+          "target_outside_availability",
+          "class_outside_availability",
+          "precommitted_elsewhere",
+          "contradicted:东桥"
+        ],
+        "B3": [
+          "precommitted_elsewhere",
+          "contradicted:东桥"
+        ]
+      },
+      "later_outcome": null,
+      "honoured": null,
+      "unused_reason": "not_promised"
+    }
+  ],
+  "actual_vs_probability": {
+    "probability_table": {
+      "committable_classes": [
+        "F0",
+        "F1"
+      ],
+      "abstained_classes": {
+        "F3": "insufficient_cell_history"
+      },
+      "expected_delivered": 2.5125,
+      "joint_priority_risk": {
+        "2026-10-05": 0.0125
+      }
+    },
+    "actual_call_table": {
+      "cutoff": 567,
+      "dispatched": [],
+      "missing_signals": [],
+      "occupied_windows": {},
+      "reservations": [
+        {
+          "staff": "T5",
+          "class": "F1",
+          "source": "school_accepts"
+        },
+        {
+          "staff": "T4",
+          "class": "F1",
+          "source": "school_confirmed"
+        }
+      ],
+      "not_dispatched": []
+    },
+    "promise_ledger": [
+      {
+        "class": "F0",
+        "site": "棠径",
+        "kind": "paired",
+        "window": "540-590",
+        "state": "confirmed",
+        "promised": true,
+        "reservations": [],
+        "executable_branches": [],
+        "dispatched_branches": [],
+        "blocked_branches": {},
+        "later_outcome": null,
+        "honoured": null,
+        "unused_reason": "outcome_not_yet_received"
+      },
+      {
+        "class": "F1",
+        "site": "东桥",
+        "kind": "paired",
+        "window": "580-630",
+        "state": "notified",
+        "promised": true,
+        "reservations": [
+          {
+            "staff": "T5",
+            "source": "school_accepts",
+            "received": "2026-10-02T18:10:00"
+          },
+          {
+            "staff": "T4",
+            "source": "school_confirmed",
+            "received": "2026-10-05T08:20:00"
+          }
+        ],
+        "executable_branches": [],
+        "dispatched_branches": [],
+        "blocked_branches": {
+          "B1": [
+            "release_after_deadline",
+            "arrival_after_start"
+          ]
+        },
+        "later_outcome": null,
+        "honoured": null,
+        "unused_reason": "outcome_not_yet_received"
+      },
+      {
+        "class": "F2",
+        "site": "沙溪",
+        "kind": "ordinary",
+        "window": "540-590",
+        "state": "proposed",
+        "promised": false,
+        "reservations": [],
+        "executable_branches": [],
+        "dispatched_branches": [],
+        "blocked_branches": {
+          "B4": [
+            "window_impossible",
+            "outside_availability",
+            "release_after_deadline",
+            "arrival_after_start"
+          ]
+        },
+        "later_outcome": null,
+        "honoured": null,
+        "unused_reason": "not_promised"
+      },
+      {
+        "class": "F3",
+        "site": "沙溪",
+        "kind": "paired",
+        "window": "620-670",
+        "state": "proposed",
+        "promised": false,
+        "reservations": [],
+        "executable_branches": [],
+        "dispatched_branches": [],
+        "blocked_branches": {
+          "B2": [
+            "target_outside_availability",
+            "class_outside_availability",
+            "precommitted_elsewhere",
+            "contradicted:东桥"
+          ],
+          "B3": [
+            "precommitted_elsewhere",
+            "contradicted:东桥"
+          ]
+        },
+        "later_outcome": null,
+        "honoured": null,
+        "unused_reason": "not_promised"
+      }
+    ],
+    "release_reports": [
+      {
+        "event": "R1",
+        "target": "B1",
+        "site": "东桥",
+        "kind": "school_confirmed",
+        "value": "yes",
+        "recorded_at": "2026-10-05T08:20:00",
+        "minute": 500,
+        "branch": "B1",
+        "class": "F1"
+      },
+      {
+        "event": "R5",
+        "target": "B1",
+        "site": "棠径",
+        "kind": "release_receipt",
+        "value": "yes",
+        "recorded_at": "2026-10-05T09:27:00",
+        "minute": 567,
+        "branch": "B1",
+        "class": "F1"
+      }
+    ],
+    "exclusive_pairings": [
+      {
+        "staff": "T4",
+        "branches": [
+          "B1",
+          "B2"
+        ],
+        "shared_conditions": [
+          [
+            "棠径",
+            "full"
+          ]
+        ],
+        "distinguishing": [
+          [
+            "沙溪",
+            "shortage"
+          ],
+          [
+            "东桥",
+            "shortage"
+          ],
+          [
+            "东桥",
+            "full"
+          ]
+        ],
+        "observable_before_deadlines": true,
+        "deadlines": {
+          "B1": 560,
+          "B2": 590
+        },
+        "detail": "区分信号在最晚截止时刻前均已收到"
+      }
+    ],
+    "not_same_table_reasons": [
+      "概率试算按可承诺格计期望，不含具体出借人；实际调用表按分支窗口与已收信号逐个判定。",
+      "概率表把停课与未收回执单独计数，不折算成零需求或确认失约。",
+      "实际调用表只使用当时已收到的信号；迟到的放人回报不能追认已过时的援班。",
+      "校方接受只形成预留，不进入概率表的‘已兑现’。",
+      "证据不足的格在两张表里都不承诺，也不以跨校平均补位。"
+    ]
+  },
+  "strategies": {
+    "conditional": {
+      "days": 88,
+      "dispatches": 18,
+      "protected": 13,
+      "false_alarms": 14,
+      "missed_needs": 14,
+      "mean_call_minute": 530.6666666666666
+    },
+    "fixed": {
+      "days": 88,
+      "dispatches": 34,
+      "protected": 26,
+      "false_alarms": 28,
+      "missed_needs": 12,
+      "mean_call_minute": 521.6470588235294
+    },
+    "reading": [
+      "固定备班预置在目标校，不等出发校信号，但每天都要占用一名合格助教。",
+      "联保方案只在条件全部收到且早于截止时刻时才派出，误派少，但可能因迟到信号错过。",
+      "两者都以当天已证实结局评分，不用最终到岗挑选当天最成功的调法。"
+    ]
+  },
+  "determinism": {
+    "information_states": 114,
+    "evaluations": 319,
+    "conflicts": [],
+    "identical": true
+  }
+}
